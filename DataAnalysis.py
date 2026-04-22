@@ -144,7 +144,7 @@ def fit_2g_1u_model(data):
 # 4. MAIN STREAMLIT INTERFACE
 # ==========================================
 def main():
-    st.set_page_config(layout="wide", page_title="Ultimate Measurement Dashboard")
+    st.set_page_config(layout="wide", page_title="Data Analysis Dashboard")
     st.title("Data Analysis")
 
     st.sidebar.header("1. Open Data File")
