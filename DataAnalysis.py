@@ -264,7 +264,7 @@ def main():
             # 4.1: TIME DOMAIN
             # ==========================================
             st.markdown("---")
-            st.subheader("1. Time Domain Graph (100% Full Width)")
+            st.subheader("1. Time Domain Graph")
             
             fig, axes = plt.subplots(4, 2, figsize=(18, 16), sharex=True)
             axes = axes.flatten()
