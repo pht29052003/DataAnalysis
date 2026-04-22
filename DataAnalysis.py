@@ -337,7 +337,7 @@ def main():
             gmm_status = st.empty()
 
             for idx, gmm_target in enumerate(gmm_targets):
-                gmm_status.text(f"Analyzing GMM for signal: {gmm_target} ({idx+1}/{len(gmm_targets)})...")
+                gmm_status.text(f"Analyzing GMM for Data: {gmm_target} ({idx+1}/{len(gmm_targets)})...")
                 y_gmm = raw_signal if gmm_target == 'Raw' else results[gmm_target]
                 
                 trim_points = int(2 * fs)
